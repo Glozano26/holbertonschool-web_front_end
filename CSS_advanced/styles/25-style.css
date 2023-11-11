@@ -136,6 +136,11 @@ ul.row {
     clear: both;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .col-1-3 {
     width: 33.33%;
 }
@@ -220,7 +225,7 @@ ul.row {
 }
 
 body {
-    color: #161616;
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
