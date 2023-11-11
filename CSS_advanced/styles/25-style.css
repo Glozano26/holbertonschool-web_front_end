@@ -141,6 +141,11 @@ a {
     color: inherit;
 }
 
+a[href] {
+    text-decoration: none; /* Elimina la decoración de texto predeterminada */
+    font-style: italic; /* Pone el texto en cursiva */
+}
+
 .col-1-3 {
     width: 33.33%;
 }
