@@ -30,6 +30,10 @@ html {
     --section-title-color: var(--color-black);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 a:link {
     color: var(--text-color);
     text-decoration: none;
