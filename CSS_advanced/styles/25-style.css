@@ -175,7 +175,6 @@ ul.row {
     display: block;
     padding: 2rem; /* 2 veces el elemento raíz */
     background-color: var(--color-light-grey);
-    text-decoration: none;
 }
 
 .card-services a:hover {
