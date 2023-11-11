@@ -59,7 +59,6 @@ html {
 }
 
 a:link {
-    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -134,16 +133,6 @@ ul.row {
     content: "";
     display: table;
     clear: both;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a[href] {
-    text-decoration: none; /* Elimina la decoración de texto predeterminada */
-    font-style: italic; /* Pone el texto en cursiva */
 }
 
 .col-1-3 {
