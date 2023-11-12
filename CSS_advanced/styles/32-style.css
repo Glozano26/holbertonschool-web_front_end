@@ -159,8 +159,7 @@ a:active {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
-    /*Animar el fondo del botón*/
-    transition-property: color, background-color;
+    transition-property: color, background-color;/*Animar el fondo del botón*/
     transition-duration: var(--transition-duration); 
 }
 
