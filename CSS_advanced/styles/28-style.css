@@ -219,7 +219,7 @@ a:active {
 }
 
 .header {
-    padding: var(--section-header-padding);
+    padding: var(--header-padding);
 }
 
 /* Estilo para el logo dentro del encabezado */
