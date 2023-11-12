@@ -201,7 +201,7 @@ a:active {
     right: -0.1rem;
     z-index: 1;
 }
-.card-work:hover {
+.card-work {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -213,20 +213,20 @@ a:active {
     position: relative;
 }
 
-.card-work .card-title {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding: 45%;
 }
-.card-work .card-title::after {
-    display: block;
+.card-work .card-title a::after {
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     content: "";
 }
-.card-work .card-title {
+.card-work:hover .card-title a::after {
     opacity: 1;
 }
 
