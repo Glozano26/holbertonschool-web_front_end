@@ -112,8 +112,8 @@ body {
     height: 20%;
 }
 
-.nav .nav-link .nav-item::before,
-.nav .nav-link .nav-item::after {
+.nav .nav-item:hover .nav-link::before,
+.nav .nav-item:hover .nav-link::after {
     background-color: var(--color-primary);
     width: 100%;
 }
