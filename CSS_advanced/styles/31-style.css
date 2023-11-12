@@ -180,6 +180,9 @@ a:active {
     display: block;
     padding-top: 1rem; /* 1x el elemento raíz */
     color: var(--color-primary); /* Valor de la variable de color primario */
+}
+
+.card-testimonial .card-quote {
     position: relative;
 }
 
